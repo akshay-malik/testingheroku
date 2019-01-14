@@ -4,7 +4,7 @@
   "description": "testing Graphine db integration",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [
     "testing"
@@ -13,9 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "neo4j-driver": "^1.7.2"
-  },
-  "scripts": {
-  "start": "node app.js"
+    "neo4j-driver": "^1.7.2",
+    "npm": "^6.5.0"
   }
 }
