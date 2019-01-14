@@ -14,5 +14,8 @@
   "dependencies": {
     "express": "^4.16.4",
     "neo4j-driver": "^1.7.2"
+  },
+  "scripts": {
+  "start": "node app.js"
   }
 }
