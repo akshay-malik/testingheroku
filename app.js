@@ -7,12 +7,12 @@ app.get('/', function (req, res) {
 var port = process.env.PORT || 3000;
 
 app.listen(port, function () {
-  console.log('Example app listening on port 8888!');
+  console.log('Example app listening at 3000');
 });
 
 
 var neo4j = require('neo4j-driver').v1;
-var driver = neo4j.driver("bolt://hobby-geefdaeefcom.dbs.graphenedb.com:24786", neo4j.auth.basic("v303", "GtGq5rldxu"));
+var driver = neo4j.driver("bolt://hobby-enhegfiekfbbgbkeeiabnjcl.dbs.graphenedb.com:24786", neo4j.auth.basic("testuser", "b.wL09s3K55k9b.xSXaIJhGayMY6WTn"));
 
 var session = driver.session();
 session
