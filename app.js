@@ -16,7 +16,7 @@ var driver = neo4j.driver("bolt://hobby-enhegfiekfbbgbkeeiabnjcl.dbs.graphenedb.
 
 var session = driver.session();
 session
-    .run("CREATE (n:Person {name:'Bob'}) RETURN n.name")
+    .run("CREATE (n:Person {name:'Kelley'}) RETURN n.name")
     .then(function(result) {
         result.records.forEach(function(record) {
             console.log(record)
